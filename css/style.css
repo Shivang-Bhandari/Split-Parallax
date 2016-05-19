@@ -1,5 +1,5 @@
 body {
-  background: url("../images/bg.jpg");
+  background: linear-gradient(to left, #abbaab , #ffffff);
   width: 100%;
   height: auto;
 }
@@ -18,19 +18,19 @@ h1 {
   height: 800px;
 }
 
-#layer1 {
-  background: url("../images/IMac.png") no-repeat 20% 50%;
+#layer_1 {
+  background: url("../images/IMac.png") no-repeat 40% 50%;
 
 }
 
-#layer2 {
-  background: url("../images/MacBook.png") no-repeat 80% 50%;
+#layer_2 {
+  background: url("../images/MacBook.png") no-repeat 70% 65%;
 }
 
-#layer3 {
-  background: url("../images/iphone.png") no-repeat 80% 50%;
+#layer_3 {
+  background: url("../images/iphone.png") no-repeat 90% 71%;
 }
 
-#layer4 {
-  background: url("../images/ipod.png") no-repeat 82% 65%;
+#layer_4 {
+  background: url("../images/ipod.png") no-repeat 88% 77%;
 }

@@ -1,14 +1,14 @@
 function parallax(){
 
-  var layer1 = document.getElementById('layer1');
-  var layer2 = document.getElementById('layer2');
-  var layer3 = document.getElementById('layer3');
-  var layer4 = document.getElementById('layer4');
+  var layer_1 = document.getElementById('layer_1');
+  var layer_2 = document.getElementById('layer_2');
+  var layer_3 = document.getElementById('layer_3');
+  var layer_4 = document.getElementById('layer_4');
 
-  layer1.style.top = -(window.pageYoffset / 10) + 'px';
-  layer2.style.top = -(window.pageYoffset / 8) + 'px';
-  layer3.style.top = -(window.pageYoffset / 6) + 'px';
-  layer4.style.top = -(window.pageYoffset / 4) + 'px';
+  layer_1.style.top = -(window.pageYOffset / 2) + 'px';
+  layer_2.style.top = (window.pageYOffset / 4) + 'px';
+  layer_3.style.top = -(window.pageYOffset / 6) + 'px';
+  layer_4.style.top = (window.pageYOffset / 10) + 'px';
 }
 
-window.addEventListner("scroll" , parallax , false);
+window.addEventListener("scroll" , parallax , false);
