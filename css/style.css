@@ -1,0 +1,36 @@
+body {
+  background: url("../images/bg.jpg");
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  color: transparent;
+}
+
+#content{
+  position: absolute;
+}
+
+.imageParallax{
+  position: fixed;
+  width: 100%;
+  height: 800px;
+}
+
+#layer1 {
+  background: url("../images/IMac.png") no-repeat 20% 50%;
+
+}
+
+#layer2 {
+  background: url("../images/MacBook.png") no-repeat 80% 50%;
+}
+
+#layer3 {
+  background: url("../images/iphone.png") no-repeat 80% 50%;
+}
+
+#layer4 {
+  background: url("../images/ipod.png") no-repeat 82% 65%;
+}
